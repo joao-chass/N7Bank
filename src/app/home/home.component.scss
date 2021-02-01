@@ -1,0 +1,102 @@
+ion-content {
+  --ion-background-color: #0e0e0e;
+}
+
+.header {
+  color: white;
+  padding: 10px;
+}
+
+.card {
+  background-color: #242424;
+}
+
+.extrato {
+  background-color: #3e3e3e;
+  color: #9e9e9e;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.item-background-color {
+  --ion-item-background: #242424;
+}
+
+.arrow {
+  font-size: 17px;
+  position: absolute;
+  right: 21px;
+  top: 19px;
+}
+
+.circle {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #585858;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  right: 21px;
+  top: 29px;
+}
+
+.icon-alert {
+  position: absolute;
+  right: 80px;
+  top: 40px;
+}
+
+.biometria {
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 0;
+  height: 322px;
+  width: 100%;
+  border-radius: 13px 13px 0px 0px;
+  color: black;
+  font-weight: 500;
+  padding-left: 16px;
+  transition: all 0.3s ease-out;
+  font-size: 16px;
+}
+
+.centralizando {
+  width: 100vw;
+  height: 29px;
+  display: flex;
+  color: #949494;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-menu {
+  position: absolute;
+  left: -1px;
+  font-size: 8px;
+  font-size: 8px;
+}
+
+.dot {
+  height: 9px;
+  width: 9px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-alert {
+    height: 12px;
+    width: 12px;
+    background-color: #ff0909;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border: solid 1px;
+}

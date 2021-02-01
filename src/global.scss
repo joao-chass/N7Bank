@@ -24,3 +24,19 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+ion-input {
+    border-radius: 50px !important;
+    font-size: 0.9em;
+    border: 1px solid #ffffff !important;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255)!important;
+    
+  }
+
+
+  .native-input.sc-ion-input-md {
+    padding-inline-start: 32px;
+  }
+  

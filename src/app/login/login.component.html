@@ -1,0 +1,66 @@
+<ion-content  >
+  
+  <!-- <app-crdenciais class="credenciais"></app-crdenciais> -->
+
+  <div class="logo animate__fadeInUpBig">
+    <img src="./../../assets/logoBranco.png" alt="logo"  width="185px">
+  </div>
+
+  <div class="logar">
+    <ion-button color="warning" shape="round"  size="medium" expand="full" (click)="ncadastra()" >Abrir conta</ion-button>
+  </div>
+
+  <div class="cadastrar">
+    <ion-button color="light" shape="round"  expand="block" size="medium" fill="outline" (click)="indicar = true">Já tenho conta</ion-button>
+  </div>
+
+
+  <div class="indicar-conselho" *ngIf="indicar" >
+
+    <div class="fechar-indicacao">
+      <div class="circle">
+        JC
+      </div>
+    </div>
+
+    <div class="fechar-indicacao">
+      Olá, João
+    </div>
+
+    <div class="fechar-indicacao">
+     Agencia <b>0000</b> Conta corrente <b>00000-0</b>
+    </div>
+
+    
+    <div class="entrar">
+      <ion-button color="medium" shape="round"  expand="block" size="medium" fill="outline"  >
+        Entrar com outra conta </ion-button>
+      </div>
+      
+      <div class="conta-diferente">
+        <ion-button color="warning" shape="round"  size="medium" expand="full" (click)="bio = true" >
+          Entrar</ion-button>
+      </div>
+  
+
+
+  </div>
+
+
+  <div class="biometria" *ngIf="bio" >
+
+    <h1>Autenticar com biometria</h1>
+
+    <div class="fechar-indicacao">
+      <ion-icon name="finger-print-outline" class="digital" routerLink="/home" ></ion-icon>
+    </div>
+    <p>Toque no sensor de impresao</p>
+
+    <h2>
+      DIGITE A SENHA
+    </h2>
+  </div>
+
+  
+  
+</ion-content>

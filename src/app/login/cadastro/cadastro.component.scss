@@ -1,0 +1,41 @@
+ion-content {
+    --ion-background-color:#222222;
+}
+
+ion-item {
+    --highlight-color-focused: none;
+  }
+
+.input {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+}
+
+.icons-input {
+    position: absolute;
+    right: 27px;
+    z-index: 10;
+}
+
+.chat {
+    background-color: #464646;
+    background-image: linear-gradient(to right, #000000, #121010, #454545);
+    max-width: 299px;
+    padding: 11px;
+    color: #fff;
+    font-family: arial;
+    position: relative;
+    top: 277px;
+    border-radius: 15px 15px 15px 0px;
+    left: 12px;
+    margin-top: 11px;
+    display: table;
+}
+
+.carregando {
+    position: absolute;
+    bottom: 69px;
+    left: 20px;
+}
+

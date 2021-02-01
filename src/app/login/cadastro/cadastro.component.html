@@ -1,0 +1,25 @@
+<ion-content>
+  <ion-list lines="none">
+    <ion-buttons slot="start" routerLink="/">
+      <ion-icon name="arrow-back-outline" color="light" size="large"></ion-icon>
+    </ion-buttons>
+  </ion-list>
+ 
+  <div *ngFor="let conversa of conversas" >
+    <div class="chat animate__fadeInUpBig">
+      {{conversa}}
+    </div>
+  </div>
+
+
+
+  <ion-spinner name="dots" color="light" class="carregando" *ngIf="carregando" ></ion-spinner>
+
+
+  <ion-list lines="none" class="input">
+    <ion-item>
+      <ion-input type="number" placeholder="Digite seu CPF"  ></ion-input> 
+      <ion-icon name="send" class="icons-input" item-right></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>
