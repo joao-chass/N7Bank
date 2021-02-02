@@ -1,5 +1,5 @@
 # N7Bank
-Clone do aplicativo da C6 feito em Ionic e Angular. 
+Recriando interface do C6 Bank utilizando Ionic e Angular. 
 
 ![image](https://user-images.githubusercontent.com/36828679/106533866-a854bc00-64d1-11eb-9803-5eaab4a9e413.png)
 
