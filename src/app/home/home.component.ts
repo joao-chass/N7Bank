@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   slideOpts = {
     initialSlide: 0,
-    speed: 400
+    speed: 400,
+    color: 'dark'
   };
   constructor() { }
 

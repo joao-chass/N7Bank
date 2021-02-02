@@ -14,56 +14,19 @@
     </div>
 
 
-    <div class="circle" >
+    <div class="circle">
       JC
     </div>
   </div>
 
 
-  <ion-card mode="ios" class="card">
-
-    <ion-chip>
-      <ion-avatar>
-        <img src="https://cdn.countryflags.com/thumbs/brazil/flag-round-250.png" width="15px">
-      </ion-avatar>
-      <ion-label style="color: #9e9e9e; font-weight: 600;">Saldo em reais</ion-label>
-    </ion-chip>
+  <app-saldo-card></app-saldo-card>
 
 
-    <ion-item lines="none" class="item-background-color">
-
-      <ion-label color="medium">
-        <b>R$</b>
-        <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-      </ion-label>
-      <ion-fab-button color="medium" slot="end" size="small" >
-        <span class="material-icons">
-          visibility_off
-        </span>
-      </ion-fab-button>
-    </ion-item>
-
-    <ion-card-title class="extrato">
-      VER EXTRATO
-      <div class="arrow">
-        <span class="material-icons">
-          keyboard_arrow_right
-        </span>
-      </div>
-    </ion-card-title>
-
-
-  </ion-card>
-
-
-  <div class="biometria">
+  <div class="menu-slide">
 
     <div class="centralizando">
-
+      <ion-icon name="chevron-up-outline"></ion-icon>
     </div>
 
     <ion-row>
@@ -89,8 +52,9 @@
 
       <ion-col>
         <span class="material-icons">
-          qr_code_scanner
+         <img src="https://image.freepik.com/free-icon/barcode_318-1989.jpg" width="29px">
         </span>
+
         <p class="text-menu">
           Pagar
         </p>
@@ -126,16 +90,23 @@
       Para você
     </ion-row>
 
-    <ion-slides  >
-      <ion-slide>
+    <ion-slides pager="true" [options]="slideOpts" color="success">
+      <ion-slide >
         <ion-card mode="ios">
           <img src="./../../assets/store.png" alt="">
         </ion-card>
+        
+      </ion-slide>
+
+      <ion-slide >
+        <ion-card mode="ios">
+          <img src="./../../assets/store.png" alt="">
+        </ion-card>
+        
       </ion-slide>
 
     </ion-slides>
-  
+
 
   </div>
 </ion-content>
-<app-menu-tabs style="z-index: 999;"></app-menu-tabs>

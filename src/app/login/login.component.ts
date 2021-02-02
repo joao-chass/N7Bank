@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent implements OnInit {
-  indicar = false;
+  entrar = false;
   bio = false;
   constructor(private route: Router) { }
 
@@ -18,8 +18,7 @@ export class LoginComponent implements OnInit {
     
   }
 
-  ncadastra() {
-    console.log('oie');
+  cadastro() {
     this.route.navigateByUrl('/cadastro');
   }
 

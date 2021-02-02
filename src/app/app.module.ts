@@ -1,3 +1,5 @@
+import { SaldoCardComponent } from './home/saldo-card/saldo-card.component';
+import { AutenticacaoComponent } from './login/autenticacao/autenticacao.component';
 import { MenuTabsComponent } from './menu-tabs/menu-tabs.component';
 import { HomeComponent } from './home/home.component';
 import { CadastroComponent } from './login/cadastro/cadastro.component';
@@ -21,7 +23,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CadastroComponent,
     LoginComponent,
     HomeComponent,
-    MenuTabsComponent
+    MenuTabsComponent,
+    AutenticacaoComponent,
+    SaldoCardComponent
   ],
   entryComponents: [],
   imports: [

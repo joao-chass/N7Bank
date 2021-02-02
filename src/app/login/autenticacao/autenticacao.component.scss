@@ -1,0 +1,45 @@
+.biometria {
+    position: absolute;
+    background-color: #ffffff;
+    bottom: 0;
+    height: 276px;
+    width: 100%;
+    border-radius: 22px 22px 0px 0px;
+    color: black;
+    font-weight: 500;
+    padding-left: 16px;
+    transition: all 0.3s ease-out;
+    font-size: 16px;
+    h1 {
+        color: rgb(85, 83, 83);
+        font-size: 22px;
+    }
+    p {
+        font-size: 11px;
+        font-weight: 300;
+        text-align: center;
+    }
+    h2 {
+        position: absolute;
+        bottom: 12px;
+        color: rgb(85, 83, 83);
+        font-size: 22px;
+    }
+}
+
+.digital {
+    align-self: center;
+    font-size: 55px;
+    color: #158b86;
+    margin-top: 26px;
+}
+
+
+.icon-digital {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}

@@ -31,7 +31,7 @@ export class CadastroComponent implements OnInit {
             this.chat();
             break;
             case 3:
-              this.conversas.push(`As Contas C6 são sempre atreladas ai seu CPF seja para acessar
+              this.conversas.push(`As Contas N7 são sempre atreladas ai seu CPF seja para acessar
               uma conta pesssal (PF) ou empresarial (PJ)`);
           
               this.chat();

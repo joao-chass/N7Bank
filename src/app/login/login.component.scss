@@ -13,14 +13,14 @@ ion-content{
    
 }
 
-.logar{
+.cadastrar{
     position: absolute;
     width: 100%;
     bottom: 15%;
     padding: 15px;
 }
 
-.cadastrar{
+.logar{
     position: absolute;
     width: 100%;
     bottom: 5%;
@@ -37,21 +37,21 @@ ion-content{
     border-radius: 25px;
 }
 
-.conta-diferente {
+.autenticar {
     position: absolute;
     width: 100%;
     bottom: 4px;
     padding: 15px;
 }
 
-.entrar{
+.conta-diferente {
     position: absolute;
     width: 100%;
     bottom: 58px;
     padding: 15px;
 }
 
-.indicar-conselho {
+.verificar-conta {
     position: absolute;
     background-color: #ffffff;
     bottom: 0;
@@ -70,7 +70,7 @@ ion-content{
 }
 
 
-.fechar-indicacao {
+.centralizar-dados-conta {
     display: flex;
     justify-self: center;
     justify-content: center;
@@ -91,51 +91,3 @@ ion-content{
     font-size: 14px;
 }
 
-.centralizando {
-    width: 100vw;
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-.biometria {
-    position: absolute;
-    background-color: #ffffff;
-    bottom: 0;
-    height: 276px;
-    width: 100%;
-    border-radius: 22px 22px 0px 0px;
-    color: black;
-    font-weight: 500;
-    padding-left: 16px;
-    transition: all 0.3s ease-out;
-    font-size: 16px;
-    h1 {
-        color: rgb(85, 83, 83);
-        font-size: 22px;
-    }
-    p {
-        font-size: 11px;
-        font-weight: 300;
-        text-align: center;
-    }
-    h2 {
-        position: absolute;
-        bottom: 12px;
-        color: rgb(85, 83, 83);
-        font-size: 22px;
-    }
-}
-
-.digital {
-    align-self: center;
-    font-size: 55px;
-    color: #158b86;
-    margin-top: 26px;
-}
-
-.animate__animated.animate__bounce {
-    --animate-duration: 2s;
-  }
